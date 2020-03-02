@@ -1,0 +1,56 @@
+.post {
+  width: 800px;
+  margin: 0 auto 22px;
+  background: #ffffff;
+  padding: 25px;
+  box-shadow: 0 0 15px rgba(0,0,0, 0.3);
+  border-radius: 5px;
+  margin-top: 25px;
+}
+.post .question .avatar-mask {
+  border-radius: 50%;
+  border: 3px solid #efefef
+}
+
+.post .question {
+  display: flex;
+  
+  flex-direction: column;
+}
+
+.post .question .question-box {
+  display: flex;
+  align-items: center;
+}
+.post .question .question-box  img {
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+}
+.post .question .question-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.post .question .question-info h1 {
+  font-size: 1.1rem;
+  font-weight: bold;
+
+}
+.post .question .question-info span {
+  font-size: 1.1 rem;
+  color: #9a9a9a;
+}
+.post .question article {
+  margin-top: 15px;
+  font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+
+}
+.post .division {
+  width: 100%;
+  height: 2px;
+  background: #eeeeee;
+  margin-top: 15px;
+}
+

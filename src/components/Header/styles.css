@@ -1,0 +1,22 @@
+#header {
+  display: flex;
+  background: #4A90E2;
+  height: 64px;
+}
+
+#header nav {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  max-width: 90%;
+  margin: 0 auto;
+
+}
+header nav a {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: bold;
+
+}

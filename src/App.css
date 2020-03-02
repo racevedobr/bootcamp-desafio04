@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,body,#app {
+  height: 100%;
+
+}
+
+body{
+  background-color: #e6ecf0;
+  font-family:  Arial, Helvetica, sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important ;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,ol {
+  list-style: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+@media (mah-width: 640px) {
+  .container {
+    width: 100%;
+  }
+}
